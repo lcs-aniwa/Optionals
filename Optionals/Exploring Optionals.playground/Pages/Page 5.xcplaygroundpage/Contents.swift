@@ -13,7 +13,12 @@
  
  */
 // Type your code below this line
-
+var day0fWeek : String?
+if day0fWeek != nil {
+    print("The day is \(day0fWeek)")
+}   else {
+    print("no day was provided")
+}
 /*:
  
  Now change the first line to:
