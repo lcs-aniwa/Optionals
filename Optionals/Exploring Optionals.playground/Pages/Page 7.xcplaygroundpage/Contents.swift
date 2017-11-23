@@ -20,7 +20,12 @@
  
  */
 // Type the code below this line
-
+var day0fWeek : String? = "Monday"
+if let day = day0fWeek {
+    print ("The day is \(day)")
+} else {
+    print ("no day was provided")
+}
 /*:
  Line 2 is the key.
  
